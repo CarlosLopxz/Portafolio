@@ -5,37 +5,45 @@ import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 
-const TAGS = {
-  NEXT: {
-    name: "Next.js",
-    class: "bg-black text-white",
-    icon: NextJS,
-  },
-  TAILWIND: {
-    name: "Tailwind CSS",
-    class: "bg-[#003159] text-white",
-    icon: Tailwind,
-  },
-}
 const PROJECTS = [
   {
-    title: "SIGMASOFT - Sistema de Gestion de Modulos Academicos",
+    title: "SigmaSoft - Sistema de Gestión de Módulos Académicos",
     description:
-      "Sistema de informacion y gestion de modulos academicos para mantener el control de modulos integrales. Creado con  JavaScript , Css, Php , Html y Boostrap",
-    link: "#",
-    github: "#",
-    image: "/projects/sigmasoft.png",
-    // tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Sistema de información y gestión de módulos académicos para mantener el control de módulos integrales. Creado con JavaScript, CSS, PHP, HTML y Bootstrap.",
+    link: "https://joseramos.com.co/",
+    github: "https://github.com/CarlosLopxz/sigma.git",
+    image: "/projects/sigma.png",
   },
   {
-    title: "Galvis Cafe - Sitio web venta de Alimentos  ",
+    title: "Galvis Café - Aplicación Web de Venta de Alimentos",
     description:
-      "plataforma orientada a la venta de alimentos y bebidas, enfocada en ofrecer una experiencia de usuario intuitiva y eficiente. La plataforma permite a los usuarios explorar productos, realizar pedidos y gestionar sus compras de manera sencilla.",
-    link: "https://adventjs.dev",
-    image: "/projects/galviscafe.png",
-    // tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Plataforma orientada a la venta de alimentos y bebidas, enfocada en ofrecer una experiencia de usuario intuitiva y eficiente. La plataforma permite a los usuarios explorar productos, realizar pedidos y gestionar sus compras de manera sencilla.",
+    link: "https://galvislajagua.comeya.xyz/",
+    image: "/projects/lajagua.png",
   },
-]
+  {
+    title: "Cardenals - Aplicación Web de Reservaciones de Hotelería",
+    description:
+      "Aplicación web diseñada para gestionar reservaciones en hoteles, ofreciendo funcionalidades para seleccionar fechas, tipos de habitación y realizar reservaciones de manera intuitiva y rápida. Creada con tecnologías modernas para garantizar una experiencia de usuario óptima.",
+    image: "/projects/cardenals.jpg",
+  },
+  {
+    title: "Sistema de Gestión Hotelera - Inventarios y Habitaciones",
+    description:
+      "Sistema diseñado para la gestión de inventarios, clientes y habitaciones en hoteles. Incluye funcionalidades como facturación y reportes administrativos, optimizando las operaciones internas de la empresa.",
+      link:"https://hotel.comeya.xyz/",
+    github: "https://github.com/CarlosLopxz/hotel.comeya.xyz.git",
+    image: "/projects/hotel.png",
+  },
+  {
+    title: "Constructura - Sistema de Inventarios de Vehículos Pesados",
+    description:
+      "Plataforma desarrollada para gestionar inventarios de vehículos y maquinaria pesada en una constructora. Incluye herramientas para control de existencias, reportes y administración eficiente de recursos.",
+
+    image: "/projects/constructora.png",
+  },
+];
+
 ---
 
 <div class="flex flex-col gap-y-16">
